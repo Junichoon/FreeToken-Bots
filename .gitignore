@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local env (never commit)
+.env
+.env.*
+!.env.example
+
+# Local scan caches / personal reports (live outside this repo anyway)
+freetoken-history/
+freetoken-bots.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
